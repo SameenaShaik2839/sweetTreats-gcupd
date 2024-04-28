@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sweet Treats - Local Bakery</title>
+    <style>
+        body {
+            background: repeating-linear-gradient(
+                45deg,
+                #F3E5F5,
+                #F3E5F5 10px,
+                #E1BEE7 10px,
+                #E1BEE7 20px
+            );
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #E1BEE7;
+        }
+        .header a {
+            margin-right: 10px;
+        }
+        .header button {
+            background-color: #BA68C8;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        .main {
+            padding: 20px;
+        }
+        .footer {
+            background-color: #E1BEE7;
+            padding: 20px;
+            text-align: center;
+        }
+        .footer form {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .footer form input[type="email"] {
+            padding: 10px;
+            margin-right: 10px;
+        }
+        .footer form button {
+            padding: 10px;
+            background-color: #BA68C8;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div>
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">Our Story</a>
+            <a href="#">Visit Us</a>
+        </div>
+        <button onclick="location.href='#'">Order Online</button>
+    </div>
+    <div class="main">
+        <!-- Add your featured baked goods and promotions here -->
+    </div>
+    <div class="footer">
+        <div>Contact information and map here</div>
+        <form>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Your email">
+            <button>Subscribe</button>
+        </form>
+    </div>
+</body>
+</html>
